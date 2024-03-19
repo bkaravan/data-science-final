@@ -8,7 +8,7 @@ compiled = pd.read_csv("../compiled_data/compiled.csv")
 
 print("shape:", compiled.shape)
 
-VISUALIZE_HISTOGRAMS = False
+VISUALIZE_HISTOGRAMS = True
 
 # visualize data once compiled set is finished
 if VISUALIZE_HISTOGRAMS:

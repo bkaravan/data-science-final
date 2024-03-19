@@ -8,6 +8,7 @@ How many data points are there in total?
 How many are there in each group you care about (e.g. if you are dividing your data into positive/negative examples, are they split evenly)?
 
 - We don't have a classification target variable, rather our target variable (IMDb average movie rating) is normally distributed $[0, 10]$.
+- TODO: decide how we clean data for movies, maybe "directiors" or "release year" can be used as a group
 
 Do you think this is enough data to perform your analysis later on?
 
@@ -29,15 +30,26 @@ Is the source reputable?
 
 How did you generate the sample?
 
-- TODO
+- TODO 
+
+- We used the pandas library to generate the appropriate sample for us. After we
+compiled our data from IMDB and The Numbers, we set the weights to the `averageRating`
+column to ensure proper distribution of our sample.
 
 Is it (the sample) comparably small or large?
 
-- TODO
+- TODO Need to consider the size of the db after cleaning
+
+- Given that movies are a very easy source to find, having a sample of 100 entries
+is relatively small. 
 
 Is it (the sample) representative or is it (the sample) likely to exhibit some kind of sampling bias?
 
-- TODO
+- TODO consider what else can go wrong with biasing
+
+- We tried to create our sample to best reflect our compiled database. Specifically, 
+we payed attention to the `averageRating` column, as it is our main metric of 
+movie's "success". 
 
 Are there any other considerations you took into account when collecting your data? This is open-ended based on your data; feel free to leave this blank. (Example: If it's user data, is it public/are they consenting to have their data used? Is the data potentially skewed in any direction?)
 

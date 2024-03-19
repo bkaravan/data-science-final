@@ -3,6 +3,5 @@ data_deliverable/raw_data/imdb/title.ratings.tsv
 data_deliverable/raw_data/imdb/title.basics.tsv
 data_deliverable/raw_data/imdb/name.basics.tsv
 
-data_deliverable/raw_data/imdb/title.ratings_movies.tsv
 data_deliverable/raw_data/imdb/title.basics_movies.tsv
 data_deliverable/raw_data/imdb/name.basics_movies.tsv

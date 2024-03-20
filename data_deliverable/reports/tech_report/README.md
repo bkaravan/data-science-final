@@ -22,7 +22,7 @@ What are the identifying attributes?
 
 Where is the data from?
 
-- [IMDb](https://developer.imdb.com/non-commercial-datasets/) datasets, `title.basics_movies.tsv` and `title.ratings_movies.tsv`
+- [IMDb](https://developer.imdb.com/non-commercial-datasets/) datasets, `title.basics_movies.tsv`, `title.crew_movies.tsv`, `name.basics_movies.tsv`, and `title.ratings_movies.tsv`
 - [The Numbers](https://www.the-numbers.com/movie/budgets/all) dataset, web scraped
 
 Is the source reputable?

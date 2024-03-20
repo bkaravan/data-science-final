@@ -27,7 +27,7 @@
   - description: the title of the movie
   - default value: ``
   - range of value: any string
-  - distribution: ???
+  - distribution: NA
   - unique: no
   - required: yes
   - use in analysis: probably not
@@ -52,7 +52,7 @@
   - description: the genres associated with the movie
   - default value: `[]`
   - range of value: any string
-  - distribution: ???
+  - distribution: NA
   - unique: no
   - required: yes
   - use in analysis: yes
@@ -84,37 +84,37 @@
   - use in analysis: yes
   - sensitive: no
 
-  - `director`
+- `director`
 
   - type: string
   - description: the director of the movie
   - default value: ``
   - range of value: any string
-  - distribution: ???
+  - distribution: NA
   - unique: no
   - required: yes
   - use in analysis: probably yes
   - sensitive: no
 
-  - `writer`
+- `writer`
 
   - type: string
   - description: the writer of the movie
   - default value: ``
   - range of value: any string
-  - distribution: ???
+  - distribution: NA
   - unique: no
   - required: yes
   - use in analysis: maybe
   - sensitive: no
 
-  - `releaseDate`
+- `releaseDate`
 
   - type: string
   - description: the complete release date of the movie as a string
   - default value: ``
   - range of value: any string
-  - distribution: ???
+  - distribution: NA
   - unique: no
   - required: yes
   - use in analysis: probably not

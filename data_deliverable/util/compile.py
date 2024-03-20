@@ -20,7 +20,7 @@ print("Merging IMDb data...")
 imdb = title_basics.merge(title_ratings, on="tconst")
 title_crew = title_crew.merge(name_basics, left_on="directors", right_on="nconst")
 title_crew.rename(columns={"primaryName": "director"}, inplace=True)
-title_crew = title_crew[["tconst", "director", "writers"]] #select
+title_crew = title_crew[["tconst", "director", "writers"]]  # select
 title_crew = title_crew.merge(name_basics, left_on="writers", right_on="nconst")
 title_crew.rename(columns={"primaryName": "writer"}, inplace=True)
 title_crew = title_crew[["tconst", "director", "writer"]]
@@ -115,17 +115,29 @@ movie_budgets["releaseDay"] = movie_budgets["Release Date"].apply(
 #     lambda x: x.split(",") if x != "\\N" else []
 # )
 print("Converting money to integers in movie_budgets...")
-movie_budgets['Production Budget'] = movie_budgets['Production Budget'].apply(lambda x: int(x[1:].replace(",", "")) if x != "Unknown" else -1)
-movie_budgets['Domestic Gross'] = movie_budgets['Domestic Gross'].apply(lambda x: int(x[1:].replace(",", "")) if x != "Unknown" else -1)
-movie_budgets['Worldwide Gross'] = movie_budgets['Worldwide Gross'].apply(lambda x: int(x[1:].replace(",", "")) if x != "Unknown" else -1)
+movie_budgets["Production Budget"] = movie_budgets["Production Budget"].apply(
+    lambda x: int(x[1:].replace(",", "")) if x != "Unknown" else -1
+)
+movie_budgets["Domestic Gross"] = movie_budgets["Domestic Gross"].apply(
+    lambda x: int(x[1:].replace(",", "")) if x != "Unknown" else -1
+)
+movie_budgets["Worldwide Gross"] = movie_budgets["Worldwide Gross"].apply(
+    lambda x: int(x[1:].replace(",", "")) if x != "Unknown" else -1
+)
 print("MOVIE BUDGETS COMING")
 print(movie_budgets)
 print(movie_budgets.columns)
 print("IMDB BELOWWWWWWWWWWWWWWWWWWWWWWWWWW")
 print(imdb)
 print(imdb.columns)
-compiled = imdb.merge(movie_budgets, left_on=["startYear", "primaryTitle"], right_on=["releaseYear", "Movie"])
-compiled.drop(columns=["Movie", "Rank", "originalTitle", "startYear", "isAdult"], inplace=True)
+compiled = imdb.merge(
+    movie_budgets,
+    left_on=["startYear", "primaryTitle"],
+    right_on=["releaseYear", "Movie"],
+)
+compiled.drop(
+    columns=["Movie", "Rank", "originalTitle", "startYear", "isAdult"], inplace=True
+)
 
 # Rename columns
 compiled.rename(
@@ -134,7 +146,7 @@ compiled.rename(
         "Production Budget": "productionBudget",
         "Domestic Gross": "domesticGross",
         "Worldwide Gross": "worldwideGross",
-        "Release Date": "releaseDate"
+        "Release Date": "releaseDate",
     },
     inplace=True,
 )
@@ -143,7 +155,6 @@ print(compiled.columns)
 
 # Save the data
 compiled.to_csv("../compiled_data/compiled.csv", index=False)
-
 
 
 # Load your dataset

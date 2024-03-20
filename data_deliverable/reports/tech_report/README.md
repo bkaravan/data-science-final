@@ -3,7 +3,7 @@
 How many data points are there in total?
 
 - Before cleaning and duplicate removal: 10715 rows, 11 columns
-- After the cleaning: 1312 rows, 15 columns
+- After the cleaning: 1312 rows (1311 data, 1 header), 15 columns
 
 How many are there in each group you care about (e.g. if you are dividing your data into positive/negative examples, are they split evenly)?
 
@@ -38,14 +38,18 @@ How did you generate the sample?
 Is it (the sample) comparably small or large?
 
 - Given that movies are a very easy source to find, having a sample of 100 entries is relatively small.
-- Our cleaned dataset consists of 1312 entires, so the sample is about 7%.
+- Our cleaned dataset consists of 1311 entires, so the sample is about 7%.
 
 Is it (the sample) representative or is it (the sample) likely to exhibit some kind of sampling bias?
 
 - We tried to create our sample to best reflect our compiled database. Specifically,
   we payed attention to the `averageRating` column, as it is our main metric of
   movie's "success".
-- While focusing on a single metric, like averageRating in our case, is useful, other variables can also impact the success of a movie, such as budget, box office earnings, or the crew.
+- While focusing on a single metric, like averageRating in our case, is useful, other variables can also impact the success of a movie, such as budget, box office earnings, or the crew. Focusing on making sure our sample represents the distribution of our target variable (`averageRating`) sacrifices the representation of other variables. Below is the comparison of distributions of average rating for the complete dataset versus our sample:
+
+|              Complete dataset              |         Sample dataset         |
+| :----------------------------------------: | :----------------------------: |
+| ![complete dataset](img/complete_dist.png) | ![sample](img/sample_dist.png) |
 
 Are there any other considerations you took into account when collecting your data? This is open-ended based on your data; feel free to leave this blank. (Example: If it's user data, is it public/are they consenting to have their data used? Is the data potentially skewed in any direction?)
 
@@ -118,7 +122,7 @@ Here is the result of our descriptions of data that proves the points stated abo
 | 75%       | 0.0      | 7.1           | 1.205e+05 | 6.788e+07      | 10.0         | 23.0       |
 | max       | 1.0      | 9.0           | 2.528e+06 | 2.923e+09      | 12.0         | 31.0       |
 
-- The isAdult column has a very low mean close to zero, suggesting that almost all movies in the dataset are non-adult. After closer examination, we found only one entry that is True for the isAdult parameter out of 1312 entries, so we decided to drop this parameter as it will not provide any statistical significance to our analysis and project.
+- The isAdult column has a very low mean close to zero, suggesting that almost all movies in the dataset are non-adult. After closer examination, we found only one entry that is True for the isAdult parameter out of 1311 entries, so we decided to drop this parameter as it will not provide any statistical significance to our analysis and project.
 - The dataset appears to be complete with no missing values across all the columns, which is excellent as it suggests that the data is well-maintained and ready for analysis without the need for imputation.
 - There are no duplicate entries, indicating that the data is likely to be unique and well-curated.
 
@@ -130,6 +134,6 @@ Here is the result of our descriptions of data that proves the points stated abo
 
 Summarize any challenges or observations you have made since collecting your data. Then, discuss your next steps and how your data collection has impacted the type of analysis you will perform. (approximately 3-5 sentences)
 
-- Because movies are very accessible, finding data was not very difficult. The most challenging part was properly merging different tables from both IMDb database sources and our own web-scraping results. 
-- Some minor challenges also included merging on different datatypes from different tables -- we fixed it with typecasting. 
+- Because movies are very accessible, finding data was not very difficult. The most challenging part was properly merging different tables from both IMDb database sources and our own web-scraping results.
+- Some minor challenges also included merging on different datatypes from different tables -- we fixed it with typecasting.
 - We are only performing analysis on the movies with the most complete set of data (director, box office, release dates, ratings, etc). So our database shrank a lot, since our scraped data had much less entries than the IMDb one. Additionally, not all of them matched. So our analysis might not be representative of whole movie industry but rather of those movies for which the data got successfully scraped.

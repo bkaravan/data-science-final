@@ -20,7 +20,7 @@ print("Merging IMDb data...")
 imdb = title_basics.merge(title_ratings, on="tconst")
 title_crew = title_crew.merge(name_basics, left_on="directors", right_on="nconst")
 title_crew.rename(columns={"primaryName": "director"}, inplace=True)
-title_crew = title_crew[["tconst", "director", "writers"]] #select
+title_crew = title_crew[["tconst", "director", "writers"]]
 title_crew = title_crew.merge(name_basics, left_on="writers", right_on="nconst")
 title_crew.rename(columns={"primaryName": "writer"}, inplace=True)
 title_crew = title_crew[["tconst", "director", "writer"]]
@@ -60,20 +60,20 @@ def convertMonth(x):
     return months[x]
 
 
-# compiled = imdb.merge(movie_budgets, left_on="primaryTitle", right_on="Movie")
-# compiled.drop(columns=["Movie", "Rank", "startYear", "originalTitle"], inplace=True)
+compiled = imdb.merge(movie_budgets, left_on="primaryTitle", right_on="Movie")
+compiled.drop(columns=["Movie", "Rank", "startYear", "originalTitle"], inplace=True)
 
 # Split the date "Dec 25, 1996" into 12 25 1996
 print("Splitting release date...")
-movie_budgets["releaseYear"] = movie_budgets["Release Date"].apply(
+compiled["releaseYear"] = compiled["Release Date"].apply(
     lambda x: (
-        x[-4:]
+        int(x[-4:])
         if x != "Unknown"
         and (len(x) == len("Dec 25, 1996") or len(x) == len("Dec 2, 1996"))
         else -1
     )
 )
-movie_budgets["releaseMonth"] = movie_budgets["Release Date"].apply(
+compiled["releaseMonth"] = compiled["Release Date"].apply(
     lambda x: (
         convertMonth(x[:3])
         if x != "Unknown"
@@ -81,7 +81,7 @@ movie_budgets["releaseMonth"] = movie_budgets["Release Date"].apply(
         else -1
     )
 )
-movie_budgets["releaseDay"] = movie_budgets["Release Date"].apply(
+compiled["releaseDay"] = compiled["Release Date"].apply(
     lambda x: (
         convertDay(x[4:6])
         if x != "Unknown"
@@ -89,43 +89,31 @@ movie_budgets["releaseDay"] = movie_budgets["Release Date"].apply(
         else -1
     )
 )
-# compiled.drop(columns=["Release Date"], inplace=True)
+compiled.drop(columns=["Release Date"], inplace=True)
 
 # Convert money to integers
-# print("Converting money to integers...")
-# compiled["Production Budget"] = compiled["Production Budget"].apply(
-#     lambda x: int(x[1:].replace(",", "")) if x != "Unknown" else -1
-# )
-# compiled["Domestic Gross"] = compiled["Domestic Gross"].apply(
-#     lambda x: int(x[1:].replace(",", "")) if x != "Unknown" else -1
-# )
-# compiled["Worldwide Gross"] = compiled["Worldwide Gross"].apply(
-#     lambda x: int(x[1:].replace(",", "")) if x != "Unknown" else -1
-# )
+print("Converting money to integers...")
+compiled["Production Budget"] = compiled["Production Budget"].apply(
+    lambda x: int(x[1:].replace(",", "")) if x != "Unknown" else -1
+)
+compiled["Domestic Gross"] = compiled["Domestic Gross"].apply(
+    lambda x: int(x[1:].replace(",", "")) if x != "Unknown" else -1
+)
+compiled["Worldwide Gross"] = compiled["Worldwide Gross"].apply(
+    lambda x: int(x[1:].replace(",", "")) if x != "Unknown" else -1
+)
 
-# # Convert runtime to integers
-# print("Converting runtime to integers...")
-# compiled["runtimeMinutes"] = compiled["runtimeMinutes"].apply(
-#     lambda x: int(x) if x != "\\N" else -1
-# )
+# Convert runtime to integers
+print("Converting runtime to integers...")
+compiled["runtimeMinutes"] = compiled["runtimeMinutes"].apply(
+    lambda x: int(x) if x != "\\N" else -1
+)
 
-# # Convert genres to lists
-# print("Converting genres to lists...")
-# compiled["genres"] = compiled["genres"].apply(
-#     lambda x: x.split(",") if x != "\\N" else []
-# )
-print("Converting money to integers in movie_budgets...")
-movie_budgets['Production Budget'] = movie_budgets['Production Budget'].apply(lambda x: int(x[1:].replace(",", "")) if x != "Unknown" else -1)
-movie_budgets['Domestic Gross'] = movie_budgets['Domestic Gross'].apply(lambda x: int(x[1:].replace(",", "")) if x != "Unknown" else -1)
-movie_budgets['Worldwide Gross'] = movie_budgets['Worldwide Gross'].apply(lambda x: int(x[1:].replace(",", "")) if x != "Unknown" else -1)
-print("MOVIE BUDGETS COMING")
-print(movie_budgets)
-print(movie_budgets.columns)
-print("IMDB BELOWWWWWWWWWWWWWWWWWWWWWWWWWW")
-print(imdb)
-print(imdb.columns)
-compiled = imdb.merge(movie_budgets, left_on=["startYear", "primaryTitle"], right_on=["releaseYear", "Movie"])
-compiled.drop(columns=["Movie", "Rank", "originalTitle", "startYear"], inplace=True)
+# Convert genres to lists
+print("Converting genres to lists...")
+compiled["genres"] = compiled["genres"].apply(
+    lambda x: x.split(",") if x != "\\N" else []
+)
 
 # Rename columns
 compiled.rename(

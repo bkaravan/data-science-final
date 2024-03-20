@@ -5,17 +5,19 @@
 ### simple
 
 - `title` (string) - the title of the movie
-- `originalTitle` (string) - the original title of the movie
-- `releaseYear` (int, YYYY) - the release year of the movie
-- `releaseMonth` (int, MM) - the release month of the movie
-- `releaseDay` (int, DD) - the release day of the movie
 - `runtimeMinutes` (int) - primary runtime of the movie, in minutes
 - `genres` (string array) - the genres associated with the movie
 - `averageRating` (float of form $a.b$) - the weighted average of all the individual user ratings
 - `numVotes` (int) - the number of votes the movie has received
+- `director` (string) - the director of the movie
+- `writer` (string) - the writer of the movie
+- `releaseDate` (string) - the complete release date of the movie
 - `productionBudget` (string in format $\$x,xxx,...$) - the production budget of the movie
 - `domesticGross` (string in format $\$x,xxx,...$) - the domestic gross of the movie
 - `worldwideGross` (string in format $\$x,xxx,...$) - the worldwide gross of the movie
+- `releaseYear` (int, YYYY) - the release year of the movie
+- `releaseMonth` (int, MM) - the release month of the movie
+- `releaseDay` (int, DD) - the release day of the movie
 
 ### detailed
 
@@ -29,45 +31,6 @@
   - unique: no
   - required: yes
   - use in analysis: probably not
-  - sensitive: no
-
-- `releaseYear`
-
-  - type: int (YYYY)
-  - description: the release year of the movie
-  - default value: ``
-  - range of value: any year, $[-1, 2024]$
-  - mean value: $2004.96$
-  - distribution: skew left
-  - unique: no
-  - required: yes
-  - use in analysis: yes
-  - sensitive: no
-
-- `releaseMonth`
-
-  - type: int (MM)
-  - description: the release year of the movie
-  - default value: ``
-  - range of value: any year, $[-1, 12]$
-  - mean value: $6.92$
-  - distribution: uniform
-  - unique: no
-  - required: yes
-  - use in analysis: yes
-  - sensitive: no
-
-- `releaseDay`
-
-  - type: int (DD)
-  - description: the release year of the movie
-  - default value: ``
-  - range of value: any year, $[-1, 31]$
-  - mean value: $15.92$
-  - distribution: uniform
-  - unique: no
-  - required: yes
-  - use in analysis: yes
   - sensitive: no
 
 - `runtimeMinutes`
@@ -121,6 +84,42 @@
   - use in analysis: yes
   - sensitive: no
 
+  - `director`
+
+  - type: string
+  - description: the director of the movie
+  - default value: ``
+  - range of value: any string
+  - distribution: ???
+  - unique: no
+  - required: yes
+  - use in analysis: probably yes
+  - sensitive: no
+
+  - `writer`
+
+  - type: string
+  - description: the writer of the movie
+  - default value: ``
+  - range of value: any string
+  - distribution: ???
+  - unique: no
+  - required: yes
+  - use in analysis: maybe
+  - sensitive: no
+
+  - `releaseDate`
+
+  - type: string
+  - description: the complete release date of the movie as a string
+  - default value: ``
+  - range of value: any string
+  - distribution: ???
+  - unique: no
+  - required: yes
+  - use in analysis: probably not
+  - sensitive: no
+
 - `productionBudget`
 
   - type: string in format $\$x,xxx,...$
@@ -154,6 +153,45 @@
   - range of value: $[0, 2923706026]$
   - mean value: $91190738.17$
   - distribution: skew right
+  - unique: no
+  - required: yes
+  - use in analysis: yes
+  - sensitive: no
+
+- `releaseYear`
+
+  - type: int (YYYY)
+  - description: the release year of the movie
+  - default value: ``
+  - range of value: any year, $[-1, 2024]$
+  - mean value: $2004.96$
+  - distribution: skew left
+  - unique: no
+  - required: yes
+  - use in analysis: yes
+  - sensitive: no
+
+- `releaseMonth`
+
+  - type: int (MM)
+  - description: the release year of the movie
+  - default value: ``
+  - range of value: any year, $[-1, 12]$
+  - mean value: $6.92$
+  - distribution: uniform
+  - unique: no
+  - required: yes
+  - use in analysis: yes
+  - sensitive: no
+
+- `releaseDay`
+
+  - type: int (DD)
+  - description: the release year of the movie
+  - default value: ``
+  - range of value: any year, $[-1, 31]$
+  - mean value: $15.92$
+  - distribution: uniform
   - unique: no
   - required: yes
   - use in analysis: yes

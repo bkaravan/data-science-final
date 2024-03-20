@@ -1,101 +1,101 @@
-title,isAdult,runtimeMinutes,genres,averageRating,numVotes,director,writer,productionBudget,domesticGross,worldwideGross,releaseYear,releaseMonth,releaseDay
-Pretty Woman,0,119,"['Comedy', 'Romance']",7.1,357877,Garry Marshall,J.F. Lawton,14000000,178406268,432566361,1990,3,23
-Corpus Christi,0,115,['Drama'],7.7,21690,Jan Komasa,Mateusz Pacewicz,1300000,127240,10951283,2019,10,11
-Playing for Keeps,0,105,"['Comedy', 'Romance', 'Sport']",5.7,31219,Gabriele Muccino,Robbie Fox,35000000,2000000,2000000,1986,10,3
-Stolen,0,107,['Documentary'],9.1,15,Margo Harkin,Margo Harkin,35000000,289773,17967746,2012,9,14
-Nomad,0,-1,[],8.5,14,Matt Eggers,Matt Eggers,40000000,79123,79123,2007,3,16
-American History X,0,119,"['Crime', 'Drama']",8.5,1179616,Tony Kaye,David McKenna,10000000,6719864,6719864,1998,10,30
-Man on Wire,0,94,"['Biography', 'Crime', 'Documentary']",7.7,58466,James Marsh,Philippe Petit,1900000,2962242,5617067,2008,7,25
-Reign Over Me,0,124,['Drama'],7.4,99360,Mike Binder,Mike Binder,20000000,19661987,20081987,2007,3,23
-Simon,0,99,['Drama'],8.2,551,Diego Vicentini,Diego Vicentini,1300000,4055,1738663,2006,4,7
-Money Talks,0,91,['Comedy'],6.0,19,Jenö Csepreghy,Béla Csepreghy,25000000,41076865,41076865,1997,8,22
-The Fog,0,105,['Drama'],6.6,244,Zülfü Livaneli,Zülfü Livaneli,1100000,21445318,21445868,1980,2,1
-What If,0,90,['Mystery'],5.2,60,Hari Mahesh,Hari Mahesh,11000000,3493000,9814566,2014,8,8
-Farce of the Penguins,0,80,['Comedy'],4.0,5019,Bob Saget,Bob Saget,5000000,0,0,2007,1,30
-Silence,0,90,"['Mystery', 'Thriller']",4.6,286,Tom Whitus,Tom Whitus,46500000,7100177,23726626,2016,12,23
-The Reckoning,0,88,"['Drama', 'Mystery', 'Thriller']",6.8,1416,Stephan Rick,Thorsten Wettcke,3500000,143532,465177,2021,2,5
-The Dead Girl,0,85,"['Crime', 'Drama', 'Mystery']",6.6,16127,Karen Moncrieff,Karen Moncrieff,3300000,19875,19875,2006,12,29
-Going Under,0,83,"['Action', 'Horror', 'Thriller']",7.0,11,Carman Spoto,Carman Spoto,500000,0,0,1991,8,23
-The Apostle,0,84,"['Animation', 'Horror']",6.8,892,Fernando Cortizo,Fernando Cortizo,5000000,20733485,21277770,1997,12,17
-Monsoon Wedding,0,114,"['Comedy', 'Drama', 'Romance']",7.3,26612,Mira Nair,Sabrina Dhawan,1200000,13876974,27025600,2002,2,22
-Home,0,91,"['Comedy', 'Drama']",4.8,114,Matt Zoller Seitz,Matt Zoller Seitz,500000,15433,44793168,2009,4,23
-Bound,0,62,['Documentary'],7.0,7,Jean-Armand Bougrelle,Jean-Armand Bougrelle,4500000,3802260,7011317,1996,10,4
-The Grudge,0,100,"['Adventure', 'Drama']",6.5,17,Parviz Khatibi,Parviz Khatibi,10000000,21216148,49503117,2019,12,31
-Us,0,116,"['Horror', 'Mystery', 'Thriller']",6.8,337699,Jordan Peele,Jordan Peele,20000000,175084580,256022707,2019,3,20
-Slacker,0,97,"['Comedy', 'Drama']",7.0,23339,Richard Linklater,Richard Linklater,23000,1227508,1227508,1991,8,1
-War,0,120,"['Action', 'Drama', 'War']",7.5,5364,Aleksey Balabanov,Aleksey Balabanov,25000000,22486409,40686409,2007,8,24
-The Nativity Story,0,101,"['Adventure', 'Drama', 'Family']",6.8,12330,Catherine Hardwicke,Mike Rich,35000000,37629831,46309644,2006,12,1
-The Call,0,71,['Drama'],5.8,15,Miroslaw Dembinski,Maciej Karpinski,12800000,51872378,69821476,2013,3,14
-Beauty and the Beast,0,90,"['Drama', 'Fantasy', 'Romance']",3.1,1823,David Lister,Gavin Scott,20000000,206333165,438656843,1991,11,13
-Trade of Innocents,0,88,"['Action', 'Adventure', 'Drama']",5.4,1020,Christopher M. Bessette,Christopher M. Bessette,5800000,15091,15091,2012,10,5
-Annabelle: Creation,0,109,"['Horror', 'Mystery', 'Thriller']",6.5,149743,David F. Sandberg,Gary Dauberman,15000000,102092201,305384865,2017,8,2
-Pulse,0,119,"['Horror', 'Mystery', 'Sci-Fi']",6.5,25242,Kiyoshi Kurosawa,Kiyoshi Kurosawa,20500000,20264436,30241435,2006,8,11
-Panic,0,88,"['Comedy', 'Crime', 'Drama']",6.7,8977,Henry Bromell,Henry Bromell,1000000,779137,1425707,2000,12,1
-A Nightmare on Elm Street,0,91,['Horror'],7.4,260676,Wes Craven,Wes Craven,35000000,63075011,117729618,2010,4,30
-The Island,0,103,['Drama'],6.5,91,Costanza Quatriglio,Costanza Quatriglio,120000000,35818913,163018913,2005,7,22
-Sisters,0,84,['Drama'],5.3,51,Anne Wild,Anne Wild,30000000,87044645,106030660,2015,12,18
-Iris,0,79,"['Action', 'Crime', 'Drama']",6.3,81,Christopher Steinberger,Christopher Steinberger,5500000,5580479,5692941,2001,12,14
-Peeples,0,95,"['Comedy', 'Romance']",5.4,5108,Tina Gordon,Tina Gordon,11000000,9177065,9307166,2013,5,10
-Unfaithful,1,98,"['Adult', 'Drama']",4.1,258,Claude Pérès,Claude Pérès,50000000,52752475,119114494,2002,5,8
-The Foreigner,0,96,['Drama'],6.6,183,Fernando Díaz,Fernando Díaz,35000000,34393507,145374099,2017,9,29
-Georgia Rule,0,113,"['Comedy', 'Drama']",5.9,26474,Garry Marshall,Mark Andrus,20000000,18882880,20819601,2007,5,11
-xXx,0,124,"['Action', 'Adventure', 'Thriller']",5.8,185928,Rob Cohen,Rich Wilkes,70000000,141930000,267200000,2002,8,9
-Black or White,0,121,['Drama'],6.6,13838,Mike Binder,Mike Binder,9000000,21571189,21971021,2015,1,30
-The Future,0,91,"['Drama', 'Fantasy', 'Romance']",6.1,9090,Miranda July,Miranda July,1000000,568662,1239174,2011,7,29
-After,0,83,['Romance'],6.1,44,Géraldine Maillet,Géraldine Maillet,650000,0,0,-1,-1,-1
-The Quick and the Dead,0,108,"['Action', 'Drama', 'Romance']",6.5,102158,Sam Raimi,Simon Moore,32000000,18552460,18552460,1995,2,10
-Gremlins,0,106,"['Comedy', 'Fantasy', 'Horror']",7.3,246226,Joe Dante,Chris Columbus,11000000,151661913,152445758,1984,6,8
-All My Life,0,91,"['Drama', 'Romance']",6.3,6010,Marc Meyers,Todd Rosenberg,25000000,913935,2024063,2020,10,23
-The Real Cancun,0,96,['Documentary'],2.9,3942,Rick de Oliveira,Brian Caldirola,4000000,3816594,4188034,2003,4,25
-Little Evil,0,94,"['Comedy', 'Fantasy', 'Horror']",5.7,23159,Eli Craig,Eli Craig,7500000,0,0,2017,9,1
-Superman,0,135,"['Action', 'Fantasy', 'Musical']",4.4,214,V. Madhusudan Rao,V. Madhusudan Rao,55000000,134218018,300200000,1978,12,15
-Redemption,0,108,['Drama'],5.8,10,Richard Valentine,Richard Valentine,23000000,36686,13593473,2013,6,28
-Split,0,123,"['Action', 'Drama', 'Sport']",6.6,276,Kook-Hee Choi,Kook-Hee Choi,9000000,138141585,278754594,2017,1,18
-The Bad News Bears,0,102,"['Comedy', 'Drama', 'Family']",7.3,24785,Michael Ritchie,Bill Lancaster,35000000,32868349,33500620,2005,7,22
-Unforgettable,0,88,['Documentary'],5.6,12,Eric Williams,Eric Williams,12000000,11368012,16221211,2016,2,26
-Manchester by the Sea,0,137,['Drama'],7.8,310108,Kenneth Lonergan,Kenneth Lonergan,8500000,47695371,77733867,2016,11,17
-Ex Machina,0,108,"['Drama', 'Sci-Fi', 'Thriller']",7.7,582279,Alex Garland,Alex Garland,13000000,25440971,38261299,2015,1,21
-Knock Knock,0,55,"['Comedy', 'Horror']",6.2,52,Tobias Canto Jr.,Tobias Canto Jr.,2000000,36336,6328516,2015,6,26
-Detroit,0,95,"['Action', 'Crime', 'Drama']",5.4,85,Brian Lawrence,Brian Lawrence,40000000,16790139,26033563,2017,7,28
-The Kid,0,87,['Drama'],5.8,23,Iosif Demian,Mircea Diaconu,7000000,1508593,1593173,2019,3,8
-Breaking In,0,94,"['Adventure', 'Comedy']",6.1,1748,Bill Forsyth,John Sayles,6000000,46840590,51485382,2018,5,9
-Safe,0,80,['Thriller'],4.0,71,Paul Ruven,Mark Gaspercic,33000000,17142080,41495213,2012,4,27
-Hybrid,0,104,"['Documentary', 'Sport']",6.8,7,Daishi Matsunaga,Daishi Matsunaga,200000,162605,162605,2002,5,10
-A Hard Day's Night,0,87,"['Comedy', 'Musical']",7.5,47813,Richard Lester,Alun Owen,560000,1537860,1626784,1964,8,11
-A.C.O.R.N.S.: Operation Crackdown,0,83,"['Animation', 'Comedy', 'Family']",3.6,454,Ross Venokur,Lenore Venokur,8500000,0,1353287,2016,2,19
-The Master,0,92,"['Action', 'Comedy']",6.7,458,Chun-Ku Lu,Kuang Ni,37500000,16247159,29044338,2012,9,14
-Clash of the Titans,0,118,"['Action', 'Adventure', 'Family']",6.9,47460,Desmond Davis,Beverley Cross,125000000,163214888,493214888,2010,4,1
-Unknown,0,96,['Drama'],6.2,19,Pouran Esrafily,Pouran Esrafily,40000000,63686397,136123083,2011,2,18
-Rust,0,95,['Drama'],5.6,513,Corbin Bernsen,Corbin Bernsen,250000,0,0,2010,10,5
-Redemption,0,85,"['Crime', 'Drama', 'Thriller']",6.1,143,Uttam Mukherjee,Uttam Mukherjee,23000000,36686,13593473,2013,6,28
-It Comes at Night,0,91,"['Drama', 'Horror', 'Mystery']",6.2,102341,Trey Edward Shults,Trey Edward Shults,5000000,13985117,19720203,2017,6,9
-The Ring,0,79,"['Drama', 'Sport']",6.3,846,Kurt Neumann,Irving Shulman,48000000,129094024,248218486,2002,10,18
-Fight to the Finish,0,94,"['Action', 'Romance', 'Sport']",3.4,146,Warren Sheppard,Warren Sheppard,500000,0,0,2016,2,2
-Detroit Rock City,0,95,"['Adventure', 'Comedy', 'Music']",6.8,41172,Adam Rifkin,Carl V. Dupré,16000000,4217115,5825314,1999,8,13
-Fury,0,90,"['Adventure', 'Drama']",6.9,30,Henry King,Edmund Goulding,80000000,85817906,210315681,2014,10,17
-Stranded,0,71,['Documentary'],7.0,43,Helena Taberna,Helena Taberna,1900000,0,285593,2013,7,26
-Limbo,0,88,"['Drama', 'Fantasy']",5.4,56,Horacio Rivera,Horacio Rivera,8300000,2160710,2598224,1999,6,4
-Licorice Pizza,0,133,"['Comedy', 'Drama', 'Romance']",7.1,139032,Paul Thomas Anderson,Paul Thomas Anderson,40000000,17318007,32903549,2021,11,26
-Moonlight,0,90,['Thriller'],6.0,839,Paula van der Oest,Carel Donck,1500000,27854931,64895106,2016,10,21
-Salt,0,130,['Drama'],9.4,20,Bharath Nanda,Bharath Nanda,130000000,118311368,290650494,2010,7,23
-Below Zero,0,93,['Comedy'],6.1,119,Gian Luigi Polidoro,Roberto Sonego,1200000,0,0,2012,8,28
-Serenity,0,119,"['Action', 'Adventure', 'Sci-Fi']",7.8,304831,Joss Whedon,Joss Whedon,25000000,8547045,13008804,2019,1,24
-Equilibrium,0,107,"['Action', 'Drama', 'Sci-Fi']",7.3,345554,Kurt Wimmer,Kurt Wimmer,20000000,1190018,5345869,2002,12,6
-The Kid,0,60,"['Crime', 'Drama']",7.4,30,Wilfrid North,Wilfrid North,65000000,69688384,69688384,2000,7,7
-The New Guy,0,88,['Comedy'],5.8,37519,Ed Decter,David Kendall,13000000,28972187,28972187,2002,5,10
-The Bachelor,0,-1,"['Comedy', 'Romance']",4.9,1378,Antonis Sotiropoulos,Rena Riga,21000000,21731001,36882378,1999,11,5
-The Intruder,0,91,"['Drama', 'Fantasy', 'Horror']",4.5,38,David F. Eustace,Norman A. Fox,8000000,35388976,40597401,2019,5,1
-Circle,0,112,"['Drama', 'Horror', 'Thriller']",3.2,12,Charles Davis,Charles Davis,2000000,10024,10024,2010,8,27
-Stone,0,90,"['Crime', 'Drama', 'Thriller']",5.6,740,Vyacheslav Kaminskiy,Yusup Razykov,22000000,1810078,4065020,2010,10,8
-Pandaemonium,0,124,"['Biography', 'Drama']",6.4,881,Julien Temple,Frank Cottrell Boyce,15000000,0,1438,2001,6,29
-Father Stu,0,124,"['Biography', 'Drama']",6.5,29384,Rosalind Ross,Rosalind Ross,4000000,21096678,21799053,2022,4,13
-Connie and Carla,0,108,"['Comedy', 'Crime', 'Music']",6.2,8603,Michael Lembeck,Nia Vardalos,20000000,8047525,9649039,2004,4,16
-E.T. the Extra-Terrestrial,0,115,"['Adventure', 'Family', 'Sci-Fi']",7.9,434856,Steven Spielberg,Melissa Mathison,10500000,439454989,797307407,1982,6,11
-The Incredibly True Adventure of Two Girls in Love,0,94,"['Comedy', 'Drama', 'Romance']",6.6,5062,Maria Maggenti,Maria Maggenti,250000,2210408,2477155,1995,6,16
-My Big Fat Greek Wedding 2,0,94,"['Comedy', 'Romance']",6.0,35292,Kirk Jones,Nia Vardalos,18000000,59689605,92096558,2016,3,23
-A Few Good Men,0,138,"['Drama', 'Thriller']",7.7,285344,Rob Reiner,Aaron Sorkin,33000000,141340178,236500000,1992,12,11
-Falcon Rising,0,103,"['Action', 'Adventure']",5.7,9249,Ernie Barbarash,Y.T. Parazi,4500000,11774,11774,2014,9,4
-Split Second,0,83,['Drama'],8.4,17,Timothy Fontaine,LaSha Martin,7000000,5430822,5430822,1992,5,1
-The Kid,0,87,['Drama'],5.8,23,Iosif Demian,Mircea Diaconu,65000000,69688384,69688384,2000,7,7
-Pet Sematary,0,103,"['Fantasy', 'Horror', 'Thriller']",6.5,114243,Mary Lambert,Stephen King,11500000,57469179,57469850,1989,4,21
-Deep Throat,1,61,"['Adult', 'Comedy']",5.0,7016,Gerard Damiano,Gerard Damiano,25000,45000000,45000000,1972,6,30
+title,isAdult,runtimeMinutes,genres,averageRating,numVotes,director,writer,Release Date,productionBudget,domesticGross,worldwideGross,releaseYear,releaseMonth,releaseDay
+The Beaver,0,91,Drama,6.6,50609,Jodie Foster,Kyle Killen,"May 6, 2011",21000000,970816,5046038,2011,5,6
+Safe,0,94,"Action,Crime,Thriller",6.5,116938,Boaz Yakin,Boaz Yakin,"Apr 27, 2012",33000000,17142080,41495213,2012,4,27
+Never Back Down,0,113,"Action,Drama,Sport",6.5,105938,Jeff Wadlow,Chris Hauty,"Mar 14, 2008",21000000,24850922,39319801,2008,3,14
+Attack the Block,0,88,"Action,Adventure,Comedy",6.7,111129,Joe Cornish,Joe Cornish,"Jul 29, 2011",13000000,1024175,6459183,2011,7,29
+Licorice Pizza,0,133,"Comedy,Drama,Romance",7.1,139032,Paul Thomas Anderson,Paul Thomas Anderson,"Nov 26, 2021",40000000,17318007,32903549,2021,11,26
+Gremlins,0,106,"Comedy,Fantasy,Horror",7.3,246226,Joe Dante,Chris Columbus,"Jun 8, 1984",11000000,151661913,152445758,1984,6,8
+Foolproof,0,94,"Action,Comedy,Crime",6.4,11060,William Phillips,William Phillips,"Oct 3, 2003",5800000,230312,421021,2003,10,3
+Rock Star,0,105,"Drama,Music",6.3,45146,Stephen Herek,John Stockwell,"Sep 7, 2001",38000000,16991902,19317765,2001,9,7
+Dead Poets Society,0,128,"Comedy,Drama",8.1,539842,Peter Weir,Tom Schulman,"Jun 2, 1989",16400000,95860116,239500000,1989,6,2
+King Arthur,0,126,"Action,Adventure,Drama",6.3,175405,Antoine Fuqua,David Franzoni,"Jul 7, 2004",90000000,51877963,203653524,2004,7,7
+The Corruptor,0,110,"Action,Crime,Thriller",6.1,19070,James Foley,Robert Pucci,"Mar 12, 1999",10000000,15164492,15164492,1999,3,12
+Notting Hill,0,124,"Comedy,Drama,Romance",7.2,339474,Roger Michell,Richard Curtis,"May 28, 1999",42000000,116089678,363718196,1999,5,28
+16 Blocks,0,102,"Action,Drama,Thriller",6.6,134471,Richard Donner,Richard Wenk,"Mar 3, 2006",45000000,36895141,65595141,2006,3,3
+The Cable Guy,0,96,"Comedy,Drama,Thriller",6.1,176985,Ben Stiller,Lou Holtz Jr.,"Jun 14, 1996",47000000,60240295,102825796,1996,6,14
+Halloween 2,0,\N,Horror,5.3,66,Jake McDowell,Jake McDowell,"Aug 28, 2009",15000000,33392973,38512850,2009,8,28
+Elysium,0,109,"Action,Drama,Sci-Fi",6.6,469128,Neill Blomkamp,Neill Blomkamp,"Aug 9, 2013",120000000,93050117,286192091,2013,8,9
+Envy,0,99,Comedy,4.8,32215,Barry Levinson,Steve Adams,"Apr 30, 2004",20000000,13548322,14566246,2004,4,30
+Phat Girlz,0,99,Comedy,3.3,9402,Nnegest Likké,Nnegest Likké,"Apr 7, 2006",3000000,7061128,7301115,2006,4,7
+8MM,0,123,"Crime,Drama,Mystery",6.6,141969,Joel Schumacher,Andrew Kevin Walker,"Feb 26, 1999",40000000,36443442,96398826,1999,2,26
+American Desi,0,100,"Comedy,Drama,Romance",6.6,1663,Piyush Dinker Pandya,Piyush Dinker Pandya,"Mar 16, 2001",250000,902835,1366235,2001,3,16
+The Last Dragon,0,109,"Action,Comedy,Drama",6.8,17349,Michael Schultz,Louis Venosta,"Mar 22, 1985",10000000,33000000,33000750,1985,3,22
+Monster,0,109,"Biography,Crime,Drama",7.3,160739,Patty Jenkins,Patty Jenkins,"Dec 24, 2003",5000000,34469210,64200321,2003,12,24
+Ricki and the Flash,0,101,"Comedy,Drama,Music",6.0,24715,Jonathan Demme,Diablo Cody,"Aug 7, 2015",18000000,26839498,41166033,2015,8,7
+Street Fighter,0,102,"Action,Adventure,Comedy",4.0,74957,Steven E. de Souza,Steven E. de Souza,"Dec 23, 1994",35000000,33423000,99423000,1994,12,23
+Krush Groove,0,97,"Comedy,Drama,Music",6.4,3532,Michael Schultz,Ralph Farquhar,"Oct 25, 1985",3000000,11052713,11052713,1985,10,25
+Equilibrium,0,107,"Action,Drama,Sci-Fi",7.3,345554,Kurt Wimmer,Kurt Wimmer,"Dec 6, 2002",20000000,1190018,5345869,2002,12,6
+Renaissance Man,0,128,"Comedy,Drama",6.2,18947,Penny Marshall,Jim Burnstein,"Jun 3, 1994",40000000,24172899,24172899,1994,6,3
+"Dude, Where's My Car?",0,83,"Comedy,Mystery,Sci-Fi",5.5,145235,Danny Leiner,Philip Stark,"Dec 15, 2000",13000000,46729374,73180297,2000,12,15
+Scream 2,0,120,"Horror,Mystery",6.3,208290,Wes Craven,Kevin Williamson,"Dec 12, 1997",24000000,101363301,172363301,1997,12,12
+"Bright Lights, Big City",0,107,Drama,5.7,8919,James Bridges,Jay McInerney,"Apr 1, 1988",25000000,16118077,16118077,1988,4,1
+Steel Spirit,0,90,Action,7.5,25,Steven J. Pershing,Steven J. Pershing,"Jan 11, 2002",20000,1860,1860,2002,1,11
+Faithful,0,91,"Comedy,Crime,Drama",5.8,2259,Paul Mazursky,Chazz Palminteri,"Apr 5, 1996",13000000,2104439,2104439,1996,4,5
+Hell or High Water,0,102,"Crime,Drama,Thriller",7.6,250604,David Mackenzie,Taylor Sheridan,"Aug 12, 2016",12000000,27007844,37566117,2016,8,12
+Adventureland,0,107,"Comedy,Drama,Romance",6.8,168025,Greg Mottola,Greg Mottola,"Apr 3, 2009",9800000,16044025,17553055,2009,4,3
+Another Happy Day,0,119,"Comedy,Drama",6.0,4563,Sam Levinson,Sam Levinson,"Nov 18, 2011",4000000,9120,978527,2011,11,18
+Love and Monsters,0,86,Comedy,4.7,113,Ekaterina Krasner,Igor Tkachenko,"Oct 16, 2020",30000000,1070714,1131683,2020,10,16
+Get Over It,0,87,"Comedy,Romance",5.7,19930,Tommy O'Haver,R. Lee Fleming Jr.,"Mar 9, 2001",10000000,11560259,19860259,2001,3,9
+Bright,0,117,"Action,Fantasy,Thriller",6.3,200761,David Ayer,Max Landis,"Dec 13, 2017",90000000,0,0,2017,12,13
+Down to You,0,91,"Comedy,Drama,Romance",5.0,15687,Kris Isacsson,Kris Isacsson,"Jan 21, 2000",9000000,20035310,20035310,2000,1,21
+Whip It,0,111,"Drama,Sport",6.9,69991,Drew Barrymore,Shauna Cross,"Oct 2, 2009",15000000,13077184,18889972,2009,10,2
+The Queen,0,103,"Biography,Drama",7.3,115654,Stephen Frears,Peter Morgan,"Sep 15, 2006",15000000,56441711,128885873,2006,9,15
+Drowning Mona,0,96,"Comedy,Crime,Mystery",5.7,15497,Nick Gomez,Peter Steinfeld,"Mar 3, 2000",16000000,15427192,15980376,2000,3,3
+Martha Marcy May Marlene,0,102,"Drama,Mystery,Thriller",6.8,55624,Sean Durkin,Sean Durkin,"Oct 21, 2011",1000000,2981038,5438911,2011,10,21
+Serenity,0,106,"Drama,Mystery,Thriller",5.4,44989,Steven Knight,Steven Knight,"Jan 24, 2019",25000000,8547045,13008804,2019,1,24
+Unfriended: Dark Web,0,92,"Horror,Mystery,Thriller",6.0,37939,Stephen Susco,Stephen Susco,"Jul 19, 2018",1000000,8866745,16434588,2018,7,19
+Mamma Mia!,0,108,"Comedy,Musical,Romance",6.5,271677,Phyllida Lloyd,Catherine Johnson,"Jul 2, 2008",52000000,144540088,586265197,2008,7,2
+Happy Death Day,0,96,"Comedy,Horror,Mystery",6.6,161036,Christopher Landon,Scott Lobdell,"Oct 11, 2017",5000000,55683845,125010260,2017,10,11
+Occupied City,0,266,"Documentary,History,War",6.5,358,Steve McQueen,Bianca Stigter,"Nov 30, 2023",5000000,0,148478,2023,11,30
+The Next Best Thing,0,108,"Comedy,Drama,Romance",4.7,11665,John Schlesinger,Tom Ropelewski,"Mar 3, 2000",25000000,14983572,24355762,2000,3,3
+Half Past Dead,0,98,"Action,Crime,Thriller",4.6,16652,Don Michael Paul,Don Michael Paul,"Nov 15, 2002",25000000,15567860,19233280,2002,11,15
+Clueless,0,97,"Comedy,Romance",6.9,243260,Amy Heckerling,Amy Heckerling,"Jul 1, 1995",13700000,56598476,57956789,1995,7,1
+Spiral,0,92,Drama,7.0,46,Sofiene Mamdi,Sofiene Mamdi,"May 12, 2021",20000000,23216862,39519588,2021,5,12
+"I, Tonya",0,119,"Biography,Comedy,Drama",7.5,240644,Craig Gillespie,Steven Rogers,"Dec 8, 2017",11000000,30014534,53797409,2017,12,8
+Baggage Claim,0,96,"Comedy,Romance",5.1,9682,David E. Talbert,David E. Talbert,"Sep 27, 2013",8500000,21569509,22885836,2013,9,27
+Mad Hot Ballroom,0,105,"Documentary,Family,Music",7.4,3547,Marilyn Agrelo,Amy Sewell,"May 13, 2005",500000,8117961,9387581,2005,5,13
+Event Horizon,0,96,"Horror,Sci-Fi,Thriller",6.6,195793,Paul W.S. Anderson,Philip Eisner,"Aug 15, 1997",60000000,26673242,26673954,1997,8,15
+8 Mile,0,110,"Drama,Music",7.2,318256,Curtis Hanson,Scott Silver,"Nov 8, 2002",41000000,116724075,245768384,2002,11,8
+To Rome with Love,0,112,"Comedy,Music,Romance",6.3,90658,Woody Allen,Woody Allen,"Apr 20, 2012",21500000,16684352,74290305,2012,4,20
+The Kingdom,0,110,"Action,Drama,Thriller",7.0,131884,Peter Berg,Matthew Michael Carnahan,"Sep 28, 2007",72500000,47467250,86802457,2007,9,28
+The Inspection,0,95,Drama,6.7,4765,Elegance Bratton,Elegance Bratton,"Nov 18, 2022",3000000,385627,430608,2022,11,18
+Wrong Turn,0,84,"Horror,Thriller",6.1,130316,Rob Schmidt,Alan B. McElroy,"May 30, 2003",10000000,15417771,28649556,2003,5,30
+Side Effects,0,106,"Crime,Drama,Mystery",7.1,196660,Steven Soderbergh,Scott Z. Burns,"Feb 8, 2013",30000000,32172757,66742138,2013,2,8
+The Gospel of John,0,180,"Biography,Drama,History",7.7,4137,Philip Saville,John Goldsmith,"Sep 26, 2003",11000000,4068087,4234355,2003,9,26
+Van Helsing,0,131,"Action,Adventure,Fantasy",6.1,282929,Stephen Sommers,Stephen Sommers,"May 5, 2004",170000000,120150546,300150546,2004,5,5
+Freeze Frame,0,99,"Crime,Drama,Mystery",6.3,2942,John Simpson,John Simpson,"Dec 10, 2004",2000000,0,105377,2004,12,10
+Unhinged,0,90,"Action,Thriller",6.0,76079,Derrick Borte,Carl Ellsworth,"Jul 16, 2020",33000000,20831465,37339104,2020,7,16
+Empire,0,90,"Crime,Drama,Thriller",5.9,7873,Franc. Reyes,Franc. Reyes,"Dec 6, 2002",3500000,17504595,18495444,2002,12,6
+The Edge of Seventeen,0,104,"Comedy,Drama",7.3,139302,Kelly Fremon Craig,Kelly Fremon Craig,"Nov 18, 2016",9000000,14431633,19096003,2016,11,18
+Midnight Special,0,112,"Drama,Mystery,Sci-Fi",6.6,83780,Jeff Nichols,Jeff Nichols,"Feb 18, 2016",18000000,3712282,7680250,2016,2,18
+Erin Brockovich,0,131,"Biography,Drama",7.4,218974,Steven Soderbergh,Susannah Grant,"Mar 17, 2000",50000000,125548685,257805243,2000,3,17
+Hands of Stone,0,111,"Biography,Drama,Sport",6.6,17488,Jonathan Jakubowicz,Jonathan Jakubowicz,"Aug 26, 2016",20000000,4712792,5031975,2016,8,26
+Rat Race,0,112,"Action,Adventure,Comedy",6.5,122532,Jerry Zucker,Andy Breckman,"Aug 17, 2001",48000000,56607223,86607223,2001,8,17
+The Best Man,0,120,"Comedy,Drama,Romance",6.7,11780,Malcolm D. Lee,Malcolm D. Lee,"Oct 22, 1999",9000000,34102780,34572780,1999,10,22
+Baby Driver,0,113,"Action,Crime,Drama",7.5,602414,Edgar Wright,Edgar Wright,"Jun 28, 2017",34000000,107825862,226977991,2017,6,28
+Once,0,86,"Drama,Music,Romance",7.8,120933,John Carney,John Carney,"May 16, 2007",150000,9445857,23151269,2007,5,16
+The Monster,0,91,"Drama,Fantasy,Horror",5.4,19193,Bryan Bertino,Bryan Bertino,"Nov 11, 2016",2700000,12544,86288,2016,11,11
+The Artist,0,100,"Comedy,Drama,Romance",7.9,247988,Michel Hazanavicius,Michel Hazanavicius,"Oct 12, 2011",16000000,44667095,128100584,2011,10,12
+Wind River,0,107,"Crime,Drama,Mystery",7.7,278516,Taylor Sheridan,Taylor Sheridan,"Jun 16, 2017",11000000,33800859,44984979,2017,6,16
+The Rhythm Section,0,109,"Action,Drama,Mystery",5.4,19541,Reed Morano,Mark Burnell,"Jan 31, 2020",50000000,5437971,5983043,2020,1,31
+Weekend,0,121,"Action,Comedy,Crime",3.9,725,Cezary Pazura,Leslaw Kazmierczak,"Sep 23, 2011",190000,484592,1577585,2011,9,23
+Rob Roy,0,139,"Adventure,Biography,Drama",6.9,45390,Michael Caton-Jones,Alan Sharp,"Apr 7, 1995",28000000,31390587,31390587,1995,4,7
+Gandhi,0,191,"Biography,Drama,History",8.0,239538,Richard Attenborough,John Briley,"Dec 8, 1982",22000000,52767889,127767889,1982,12,8
+Detroit Rock City,0,95,"Adventure,Comedy,Music",6.8,41172,Adam Rifkin,Carl V. Dupré,"Aug 13, 1999",16000000,4217115,5825314,1999,8,13
+Chemical Cut,0,83,Drama,5.4,141,Marjorie Conrad,Marjorie Conrad,"Jul 5, 2016",1000000,0,0,2016,7,5
+Into the Blue,0,110,"Action,Adventure,Crime",5.9,79267,John Stockwell,Matt Johnson,"Sep 30, 2005",50000000,18782227,41982227,2005,9,30
+My Best Friend's Wedding,0,105,"Comedy,Drama,Romance",6.3,154257,P.J. Hogan,Ron Bass,"Jun 20, 1997",46000000,126813153,298923419,1997,6,20
+Slackers,0,86,"Comedy,Romance",5.3,15186,Dewey Nicks,David H. Steinberg,"Feb 1, 2002",11000000,4814244,5942218,2002,2,1
+Jennifer's Body,0,102,"Comedy,Horror",5.5,149822,Karyn Kusama,Diablo Cody,"Sep 18, 2009",16000000,16204793,31943401,2009,9,18
+Ararat,0,115,"Drama,War",6.3,14751,Atom Egoyan,Atom Egoyan,"Nov 15, 2002",15500000,1693000,1757694,2002,11,15
+Whiplash,0,106,"Drama,Music",8.5,975332,Damien Chazelle,Damien Chazelle,"Oct 10, 2014",3300000,13092006,39248707,2014,10,10
+One Day,0,107,"Drama,Romance",7.0,164900,Lone Scherfig,David Nicholls,"Jun 23, 2011",15000000,13843771,59168692,2011,6,23
+RocknRolla,0,114,"Action,Crime,Thriller",7.2,263763,Guy Ritchie,Guy Ritchie,"Oct 8, 2008",18000000,5700626,27794339,2008,10,8
+20th Century Women,0,119,"Comedy,Drama",7.3,49094,Mike Mills,Mike Mills,"Dec 25, 2016",7000000,5664763,9353729,2016,12,25
+Fantastic Beasts and Where to Find Them,0,132,"Adventure,Family,Fantasy",7.2,504981,David Yates,J.K. Rowling,"Nov 14, 2016",180000000,234037575,811724385,2016,11,14
+Finding Forrester,0,136,Drama,7.3,89276,Gus Van Sant,Mike Rich,"Dec 19, 2000",43000000,51768623,80013623,2000,12,19
+Walking and Talking,0,86,"Comedy,Drama,Romance",6.7,3911,Nicole Holofcener,Nicole Holofcener,"Jul 17, 1996",1000000,1287480,1615787,1996,7,17
+Henry & Me,0,67,"Animation,Family",6.0,216,Barrett Esposito,David I. Stern,"Aug 18, 2014",5000000,0,0,2014,8,18
+Clash of the Titans,0,118,"Action,Adventure,Family",6.9,47460,Desmond Davis,Beverley Cross,"Jun 12, 1981",15000000,30000000,44400000,1981,6,12
+The Dilemma,0,111,"Comedy,Drama",5.3,56733,Ron Howard,Allan Loeb,"Jan 14, 2011",70000000,48475290,70546865,2011,1,14
+The Report,0,119,"Biography,Crime,Drama",7.2,50212,Scott Z. Burns,Scott Z. Burns,"Nov 8, 2019",8000000,0,242788,2019,11,8

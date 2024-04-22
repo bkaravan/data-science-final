@@ -32,8 +32,8 @@ df.dropna(subset=['domesticGross', 'releaseMonth'], inplace=True)
 
 results = {}
 for month in range(1, 13):
-    current_month_gross = df[df['releaseMonth'] == month]['domesticGross']
-    other_months_gross = df[df['releaseMonth'] != month]['domesticGross']
+    current_month_gross = df[df['releaseMonth'] == month]['worldwideGross']
+    other_months_gross = df[df['releaseMonth'] != month]['worldwideGross']
     t_stat, p_value = ttest_ind(current_month_gross, other_months_gross, equal_var=False)
     results[month] = {'T-statistic': t_stat, 'P-value': p_value}
 for month, values in results.items():

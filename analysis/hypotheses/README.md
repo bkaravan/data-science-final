@@ -19,6 +19,8 @@ Do you accept or deny the hypothesis, or are you satisfied with your prediction 
 
 For our first hypothesis, we decided to visualize the mean worldwide gross profit for all the movies based on which month it has been released in. The graph can be found here :analysis\hypotheses\gross_months.png. We noticed that the top profits occured in June/July and December. It made sense -- summer and Christmas holidays are peak times for movie visits. So we decided to focus on these two months, even though we did run our tests for every month. 
 
+![visual](gross_months.png)
+
 #### Test Used: Independent t-tests.
 
 * Reason: The independent t-test is ideal for comparing the means of two independent groups. In this case, it was used to compare the mean worldwide gross of movies released in a specific month to those released in all other months.

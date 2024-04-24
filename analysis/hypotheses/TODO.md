@@ -52,28 +52,38 @@ Movies released in June tend to have a higher worldwide gross compared to other 
 Pearson correlation coefficient: 0.6047184293264617
 P-value: 3.683001512771247e-131
 The result is significant, so we reject the null hypothesis.
-                            OLS Regression Results
 
-Dep. Variable:         worldwideGross   R-squared:                       0.366
-Model:                            OLS   Adj. R-squared:                  0.365
-Method:                 Least Squares   F-statistic:                     752.3
-Date:                Mon, 22 Apr 2024   Prob (F-statistic):          3.68e-131
-Time:                        15:12:00   Log-Likelihood:                -26153.
-No. Observations:                1307   AIC:                         5.231e+04
-Df Residuals:                    1305   BIC:                         5.232e+04
-Df Model:                           1
-Covariance Type:            nonrobust
 
-                       coef    std err          t      P>|t|      [0.025      0.975]
-------------------------------------------------------------------------------------
-const            -4.399e+06   4.15e+06     -1.060      0.289   -1.25e+07    3.74e+06
-productionBudget     2.8982      0.106     27.429      0.000       2.691       3.105
+| Term              | Coefficient | Std Error | t-stat  | P-value | 95% Conf. Interval |
+|-------------------|-------------|-----------|---------|---------|--------------------|
+| **const**         | -4.399e+06  | 4.15e+06  | -1.060  | 0.289   | -1.25e+07, 3.74e+06|
+| **productionBudget** | 2.8982      | 0.106     | 27.429  | 0.000   | 2.691, 3.105       |
 
-Omnibus:                     1874.508   Durbin-Watson:                   1.932
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):           923862.058
-Skew:                           7.919   Prob(JB):                         0.00
-Kurtosis:                     132.282   Cond. No.                     4.97e+07
+**Regression Statistics**
 
+| Statistic        | Value         |
+|------------------|---------------|
+| **R-squared**    | 0.366         |
+| **Adj. R-squared** | 0.365         |
+| **F-statistic**  | 752.3         |
+| **Prob (F-statistic)** | 3.68e-131   |
+| **Log-Likelihood** | -26153.      |
+| **AIC**          | 5.231e+04     |
+| **BIC**          | 5.232e+04     |
+| **No. Observations** | 1307        |
+| **Df Residuals** | 1305          |
+| **Df Model**     | 1             |
+
+**Additional Statistics**
+
+| Statistic        | Value         |
+|------------------|---------------|
+| **Omnibus**      | 1874.508      |
+| **Prob(Omnibus)** | 0.000         |
+| **Skew**         | 7.919         |
+| **Kurtosis**     | 132.282       |
+| **Durbin-Watson** | 1.932         |
+| **Cond. No.**    | 4.97e+07      |
 #### Interpretation
 A moderate positive correlation exists between production budget and worldwide gross, suggesting that higher budgets are generally associated with higher gross earnings.
 

@@ -1,15 +1,14 @@
 ## Hypothesis testing component: 
-the group must formulate a minimum of three distinct research hypotheses and test them using a statistical testing method.
+The group must formulate a minimum of three distinct research hypotheses and test them using a statistical testing method.
 
 1) First, we wanted to check the hypothesis that a movie's release date within a month's window can affect its worldwide gross. For that, we used an independent ttest for every month, comparing that month's worldwide gross to every other month gross combined. 
 
-2) Second, we thought that it would be pretty straightforward but also valuable to check if there is any correlation between a movie's budget and its worldwide gross or its average rating. For that, we used Pearson's correlation coefficient.
+2) Second, we thought that it would be valuable to check if there is any correlation between a movie's budget and its worldwide gross or its average rating. For that, we used Pearson's correlation coefficient.
 
 3) Lastly, we wanted to explore the idea of directors affecting the average rating of the movie. Given that our data was mostly from the top charts of IMDB, we thought that if a director has at least 3 movies in our dataset, we can consider that director as a "top director". Then, we created a "ranking category" column for the movies, where a movie would be considered "high" if its rating is above the mean, and low otherwise. We used a chi-squared test to see if there is a statistically significant contingency of top directors and high rated movies. 
 
 ## Description of the result
-and adequate complementary information describing and motivating your process:
-Why did you use this statistical test? Which other tests did you consider or evaluate? What metric(s) did you use to measure success or failure, and why did you use it? What challenges did you face evaluating the model? Did you have to clean or restructure your data?
+We will answer the following question throughout the next section: Why did you use this statistical test? Which other tests did you consider or evaluate? What metric(s) did you use to measure success or failure, and why did you use it? What challenges did you face evaluating the model? Did you have to clean or restructure your data?
 
 
 ## What is your interpretation of the results? 
@@ -47,7 +46,7 @@ Movies released in June tend to have a higher worldwide gross compared to other 
 
 * Alternatives Considered: Spearman's rank correlation could have been used if the data were not normally distributed or had outliers, as it does not assume normality and is less sensitive to outliers.
 
-#### Results
+#### Results for Budget and Worldwide Gross Correlation
 
 Pearson correlation coefficient: 0.6047184293264617
 P-value: 3.683001512771247e-131
@@ -86,6 +85,15 @@ The result is significant, so we reject the null hypothesis.
 | **Cond. No.**    | 4.97e+07      |
 #### Interpretation
 A moderate positive correlation exists between production budget and worldwide gross, suggesting that higher budgets are generally associated with higher gross earnings.
+
+#### Results for Budget and Average Rating Correlation
+
+Pearson correlation coefficient: 0.0337167681630076
+P-value: 0.22317686277530505
+The result is not significant, so we fail to reject the null hypothesis.
+
+#### Interpretation
+It appears that there is no significant correlation between movie's budget and its average rating on IMBD. This is an interesting finding since, even though our data supports that movies with bigger budget has a more statistically significant chance of grossing more, they might not be rated as proportionally high.
 
 
 `Hypothesis 3: Directors' Influence on Average Rating
@@ -141,9 +149,9 @@ The statistical analysis provided valuable insights into the movie industry, con
 * Outcome: The significant result for June supported this belief, confirming the idea that release timing can impact box office performance. The non-significant result for December could be due to a variety of factors, such as increased competition during the holiday season or a smaller sample size of high-grossing movies.
 
 #### Hypothesis 2: Correlation Between Budget and Worldwide Gross/Average Rating
-* Expectation: It was presumed that movies with larger budgets would have higher gross earnings, potentially due to more substantial marketing efforts and production quality.
+* Expectation: It was presumed that movies with larger budgets would have higher gross earnings, potentially due to more substantial marketing efforts and production quality. Additionally, we expected that movies with higher budget would also score higher on the average ratings. 
 
-* Outcome: The significant positive correlation confirmed this hypothesis, indicating that, as expected, there is a tendency for movies with higher budgets to earn more worldwide.
+* Outcome: The significant positive correlation confirmed this hypothesis, indicating that, as expected, there is a tendency for movies with higher budgets to earn more worldwide. However, earning more worldwide did not mean that movies were rated higher. We found no correlation between a movie's budget and its average rating. 
 
 #### Hypothesis 3: Directors' Influence on Average Rating
 * Expectation: We hypothesized that directors with a track record of success, as indicated by having multiple movies in top charts, would be more likely to produce highly-rated movies.

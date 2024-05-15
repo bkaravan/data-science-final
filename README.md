@@ -4,6 +4,15 @@ The goal of this project is to determine what factors or statistics are importan
 
 Our motivation is to determine how important factors like budget are to a movie’s success, hopefully to broaden the knowledge of what really affects a movie's rating.
 
+## Final Deliverable
+
+1. [Visualization component](https://github.com/csci1951a-spring-2024/final-project-movie-money-matters/tree/main/analysis_deliverable/visualizations)
+2. [PDF Poster](https://github.com/csci1951a-spring-2024/final-project-movie-money-matters/blob/main/poster.pdf)
+3. [One Page Abstract (pages 1-2)](https://github.com/csci1951a-spring-2024/final-project-movie-money-matters/blob/main/abstract.pdf)
+4. [A Recorded Video Presentation](https://drive.google.com/file/d/1K_rYswrc6FB1cVkdKHLv3shf3BnUoaGX/view?usp=sharing)
+5. [Socio-historical context and impact report (pages 3+)](https://github.com/csci1951a-spring-2024/final-project-movie-money-matters/blob/main/abstract.pdf)
+
+
 ## Data Deliverable
 
 Our data is scraped from [The Numbers](https://www.the-numbers.com/movie/budgets/all) and downloaded from [IMDb](https://developer.imdb.com/non-commercial-datasets/). The original data can be found at those two links. More details on how this data was retrieved, how you could retrieve it, and its specifications are included in `data_spec.md` files for each dataset. 
